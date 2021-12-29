@@ -1,38 +1,56 @@
-.App {
+/*  Styling for Navegation Bar  */
+
+.navbar {
+width: 100%;
+overflow: auto;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 0;
+}
+
+.navbar a {
+  float:left;
+  padding:10px;
+  color: black;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  width: 25%; /* Four links of equal widths */
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar a:hover{
+  background-color: gold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* .navbar a.active{
+  background-color: gold;
+} */
+
+.navbar .icon {
+  display: none;
+}
+
+
+
+  @media screen and (max-width: 500px) {
+    .navbar a:not(:first-child){display: none;}
+    .navbar a.icon {
+      float: right;
+      display: block;
+    }
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  @media screen and (max-width: 500px) {
+    .navbar.responsive {position: relative;}
+    .navbar.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .navbar.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
