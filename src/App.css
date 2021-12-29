@@ -1,7 +1,10 @@
 /*  Styling for Navegation Bar  */
 
+* {
+    box-sizing: border-box
+}
+
 .navbar {
-    margin: 0;
     width: 100%;
     overflow: auto;
     background: #FFFFFF;
@@ -64,9 +67,8 @@
 /* Create responsive columns */
 
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+    display: flex;
+    box-sizing: border-box
 }
 
 .column {
@@ -85,7 +87,8 @@
 /* Styling for diving Welcome Page */
 
 .welcomeText {
-    padding: 15px;
+    margin: auto;
+    padding-left: 45px;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
