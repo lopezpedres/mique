@@ -9,14 +9,15 @@ import React from 'react'
         }
         console.log(x)
       }
-const NavBar = () => {
-
+      const NavBar = () => {
+  
    
     return (
         <div id="NavBar" className="navbar">
-            
+           
+            <a className= "active"href='/'>HOME</a>
             <a href='#'>PORTAFOLIO</a>
-            <a href='lopezpedres.dev'> RESUME</a>
+            <a href='#'>ABOUT ME</a>
             <a href= '#'>CONTACT</a>
             <a href='#' className="icon" onClick ={()=>myFunction()}>
             <i className="fa fa-bars"></i>
