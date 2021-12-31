@@ -1,8 +1,13 @@
 /*  Styling for Navegation Bar  */
 
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
+    overflow: "vissible"
 }
+.element {
+    margin:50%;
+    width:20%;
+    }
 
 .navbar {
     width: 100%;
@@ -10,6 +15,8 @@
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 0;
+    position: fixed;
+    top: 0px;
 }
 
 .navbar a {
@@ -25,13 +32,13 @@
 }
 
 .navbar a:hover {
-    background-color: gold;
+    background-color: #FFC72A;
 }
 
 
-/* .navbar a.active{
-  background-color: gold;
-} */
+.navbar a.active{
+  background-color: #FFC72A;
+}
 
 .navbar .icon {
     display: none;
@@ -49,10 +56,10 @@
 
 @media screen and (max-width: 500px) {
     .navbar.responsive {
-        position: relative;
+        position: fixed;
     }
     .navbar.responsive .icon {
-        position: absolute;
+        position: fixed;
         right: 0;
         top: 0;
     }
@@ -64,21 +71,30 @@
 }
 
 
+
 /* Create responsive columns */
 
-.row:after {
-    display: flex;
-    box-sizing: border-box
-}
 
-.column {
+.Row:after {
+    display: flex;
+    table-layout: fixed
+}
+/* Thanks to col-container we can start the next component under the biggest column */
+.Col-container {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+  }
+
+.Column {
     float: left;
     width: 50%;
     padding: 10px;
+    table-layout: fixed;
+    display: table-cell;
 }
 
-@media screen and (max-width: 500px) {
-    .column {
+@media screen and (max-width: 645px) {
+    .Column {
         width: 100%;
     }
 }
@@ -87,12 +103,143 @@
 /* Styling for diving Welcome Page */
 
 .welcomeText {
+    display: block;
     margin: auto;
-    padding-left: 45px;
+    padding-left: 205px;
+    padding-top: 85px;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 55px;
     color: #000000;
     text-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
 }
+
+.Rectangulo{
+width: 290px;
+height: 11px;
+left: 132px;
+top: 389px;
+margin-top: 0px;
+
+background: #FFC72A;
+}
+
+/* Styling for the Welcome Image */
+.welcomImg{
+  display: block;
+  margin: auto;
+  margin-top: 180px;
+}
+img {  
+    max-width: 100%;  
+    height: auto;  
+    }  
+
+@media screen and (max-width: 645px) {
+    .welcomeText {
+        text-align: center;
+        padding:0px;
+        
+    }
+    .Rectangulo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .welcomImg{
+        margin: auto;
+        margin-top: 50px;
+
+    }
+
+
+}
+
+
+
+
+    /* Styling for Component's titles */
+    
+    .newTitleBlock {
+        text-align: center;
+        font-size: 50px;
+        padding-top: 15px;
+        padding-bottom:0px;
+        margin-bottom: 0px;
+        font-family: "Roboto";
+        text-shadow: 0px 2px, 2px 0px, 2px 2px;
+        letter-spacing: -1px;
+    }    
+    
+    /* Styling for the Projects Page */
+
+.Projects{
+    display:block;
+    background-color: #FFC72A;
+
+}
+
+.card{
+    background-color: #FFC72A;
+    display:block;
+    margin:auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 80%;
+    border-radius: 35px
+}
+.card p{
+    background-color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 20px;
+    margin:auto;
+    padding: 25px;
+    border-radius: 35px
+}
+
+/* Styling Projects */
+
+.ProjectCards{
+    background-color: #ffffff;
+    display:block;
+    margin:auto;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50%;
+    border-radius: 5px
+
+}
+
+.ProjectCards:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.ProjectCards img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+  }
+
+.ProjectCards p{
+    font-family: Roboto;
+    font-size: 20px;
+    padding: 25px;
+}
+.ProjectCardContainer{
+    padding: 2px 16px;
+}
+
+.ProjectContainer{
+    display: flex;
+    flex-direction: row;
+    text-align: center;    
+}
+
+@media (max-width: 645px) {
+    .ProjectContainer {
+      flex-direction: column;
+    }
+  }
+
