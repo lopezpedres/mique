@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Applied Data Processing Automation",
+    "description": "description",
+    "url_project": "url",
+    "demo": false,
+    "live": false,
+    "repo_project": "url",
+    "url_image": "url",
+    "tech":["strings"]
+  },
+
+  {
+    "name": "Inventory's API Design",
+    "description": "description",
+    "url_project": "url",
+    "demo": false,
+    "live": false,
+    "repo_project": "url",
+    "url_image": "url",
+    "tech":["strings"]
+  },
+
+  {
+    "name": "Personal Web-Page",
+    "description": "description",
+    "url_project": "url",
+    "demo": false,
+    "live": false,
+    "repo_project": "url",
+    "url_image": "url",
+    "tech":["strings"]
+  },
+
+  {
+    "name": "Quotes API Consumption",
+    "description": "description",
+    "url_project": "url",
+    "demo": false,
+    "live": false,
+    "repo_project": "url",
+    "url_image": "url",
+    "tech":["strings"]
+  },
+  {
+    "name": "Coffee Cards",
+    "description": "description",
+    "url_project": "url",
+    "demo": false,
+    "live": false,
+    "repo_project": "url",
+    "url_image": "url",
+    "tech":["strings"]
+  },
+  {"name": "ToDo App",
+    "description": "description",
+    "url_project": "url",
+    "demo": false,
+    "live": false,
+    "repo_project": "url",
+    "url_image": "url",
+    "tech":["strings"]}
+
+]
