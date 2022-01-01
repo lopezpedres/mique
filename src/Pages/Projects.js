@@ -1,38 +1,34 @@
 import React from 'react'
-import heatherImage from "../assets/images/pp.jpg"
+import ProjectCards from '../Components/ProjectCards'
+import data from "../data/projects.json"
 
-const projectStyle={backgroundColor:"#FFC72A"}
+const data1=data.slice(0,3)
+const data2=data.slice(3,6)
 const titleProjectStyle={backgroundColor:"#FFFFFF"}
+const projectStyle={backgroundColor:"#FFC72A"}
 
 const Projects = () => {
     return (
         <div style={projectStyle}>
-            <h1 className='newTitleBlock' style={titleProjectStyle}>
-                PORTAFOLIO
-            </h1>
-            <div className="Row ProjectContainer">
-                <div className="Column">
-                     <div className="ProjectCards">
-                     <img src={heatherImage}/>
-                      <p>1 EXAMPLE OF A PARAGRAPGH</p>
+             <h1 className='newTitleBlock' style={titleProjectStyle}>
+            Projects
+        </h1>
+        <div className="Row ProjectContainer">
+            { data1.map((project)=>(
 
-                     </div>
-                </div>
-                <div className="Column">
-                     <div className="ProjectCards">
-                     <img src={heatherImage}/>
-                      <p>2 EXAMPLE OF A PARAGRAPGH</p>
+                <ProjectCards project={project} key = {project.name}/>
+           ))
+           }
+        </div>
+        {/* <div className="Row ProjectContainer">
+            { data2.map((project)=>(
 
-                     </div>
-                </div>
-                <div className="Column">
-                     <div className="ProjectCards">
-                     <img src={heatherImage}/>
-                      <p>3 EXAMPLE OF A PARAGRAPGH</p>
+                <ProjectCards project={project} key = {project.name}/>
+           ))
+           }
+        </div> */}
+           
 
-                     </div>
-                </div>
-            </div>
            
         </div>
     )
