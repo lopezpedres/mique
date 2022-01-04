@@ -130,6 +130,8 @@ background: #FFC72A;
   display: block;
   margin: auto;
   margin-top: 180px;
+  max-width:40%;  
+  height: auto; 
 }
 img {  
     max-width: 100%;  
@@ -140,6 +142,7 @@ img {
     .welcomeText {
         text-align: center;
         padding:0px;
+        font-size: 40px;
         
     }
     .Rectangulo{
@@ -251,4 +254,6 @@ img {
       flex-direction: column;
     }
   }
+
+  
 
