@@ -18,7 +18,7 @@ import React from 'react'
             <a className= "active"href='/'>HOME</a>
             <a href='#projects'>PORTAFOLIO</a>
             <a href='#about_me'>ABOUT ME</a>
-            <a href= '#'>CONTACT</a>
+            <a href= '#contact'>CONTACT</a>
             <a href='#' className="icon" onClick ={()=>myFunction()}>
             <i className="fa fa-bars"></i>
             </a>
