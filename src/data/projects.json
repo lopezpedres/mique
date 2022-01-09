@@ -1,13 +1,21 @@
 [
   {
     "name": "Applied Data Processing Automation",
-    "description": "description",
+    "description": "A script that automates the fetching of public exam results from a University’s website. Obtained more than 500 k rows of raw data. After that, I had to clean the data and save it into a database on a Google Cloud Virtual machine using Docker and Postgresql. In the end, I was able to analyze the data and get some insights from it.",
     "url_project": "url",
     "demo": false,
     "live": false,
     "repo_project": "url",
     "url_image": "url",
-    "tech":["strings"]
+    "tech": [
+      "Python",
+      "Jupyter Notebooks",
+      "pandas",
+      "Numpy",
+      "Seaborns",
+      "Docker",
+      "Google Cloud"
+    ]
   },
 
   {
@@ -18,7 +26,7 @@
     "live": false,
     "repo_project": "url",
     "url_image": "url",
-    "tech":["strings"]
+    "tech": ["strings"]
   },
 
   {
@@ -29,7 +37,7 @@
     "live": false,
     "repo_project": "url",
     "url_image": "url",
-    "tech":["strings"]
+    "tech": ["strings"]
   },
 
   {
@@ -40,7 +48,7 @@
     "live": false,
     "repo_project": "url",
     "url_image": "url",
-    "tech":["strings"]
+    "tech": ["strings"]
   },
   {
     "name": "Coffee Cards",
@@ -50,17 +58,16 @@
     "live": false,
     "repo_project": "url",
     "url_image": "url",
-    "tech":["strings"]
+    "tech": ["strings"]
   },
-  {"name": "ToDo App",
+  {
+    "name": "ToDo App",
     "description": "description",
     "url_project": "url",
     "demo": false,
     "live": false,
     "repo_project": "url",
     "url_image": "url",
-    "tech":["strings"]}
-
+    "tech": ["strings"]
+  }
 ]
-
-
