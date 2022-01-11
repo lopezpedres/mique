@@ -10,22 +10,35 @@ const Modal = ({ project, show, setShow }) => {
     return (
         <div id="myModal" style={ show } className="Modal">
             <div className='ModalContent'>
-                <h1>{ project.name }</h1>
-                <i style={{padding:"5px"}}className="fa fa-video-camera fa-2x" aria-hidden="true"> <span style={{fontFamily:"Roboto", fontSize:"20px"}}>Demo</span></i>
-                
-                <i style={{padding:"5px"}} className="fa fa-github fa-2x" aria-hidden="true"><span>Repository</span></i>
-                <h3>Description</h3>
-                <p>{project.description}</p>
-                
-                <h3><i className="fa fa-slack size" aria-hidden="true"></i>Stack</h3>
-                <ul>
 
-                    { project.tech.map(eachProject => (
+                <div className="modalTitle">
+                    <h2>{ project.name }</h2>
+                </div>
 
-                        <p style={{textAlign:"left"}}>  { eachProject } </p>
-                    )) }
-                </ul>
-                <span className="close" onClick={ () => setShow(exitOn) }>&times;</span>
+                <div className="modalIcons">
+                    <i style={ { padding: "5px" } } className="fa fa-video-camera fa-2x" aria-hidden="true"></i>
+
+                    <i style={ { padding: "5px" } } className="fa fa-github fa-2x" aria-hidden="true"></i>
+                </div>
+
+                <div className="modalDescription">
+                    <h3><i class="fas fa-file-alt"></i>   Description</h3>
+                    { project.description }
+                </div>
+
+                <div className="modalStack">
+
+                    <h3><i className="fas fa-layer-group" aria-hidden="true"></i>   Stack</h3>
+                    
+
+                        { project.tech.map(eachProject => (
+
+                            <p>  { eachProject } </p>
+                        )) }
+                    
+
+                    <span className="close" onClick={ () => setShow(exitOn) }>&times;</span>
+                </div>
             </div>
 
         </div>
