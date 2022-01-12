@@ -1,23 +1,23 @@
 import React from 'react'
-import Modal from '../Components/Modal'
 import ProjectCards from '../Components/ProjectCards'
 import data from "../data/projects.json"
 
+//TODO: Need to create the slideShow for the cards
 const data1=data.slice(0,3)
 const data2=data.slice(3,6)
-const titleProjectStyle={backgroundColor:"#FFFFFF"}
-const projectStyle={backgroundColor:"#FFC72A"}
+const titleProjectStyle={color:"#FFFFFF",backgroundColor:"#4A6163", fontFamily:"Raleway"}
+const imageBack={backgroundImage:"url(../assets/images/pp.jpg)"}
 
 const Projects = () => {
     return (
-        <div id='projects'style={projectStyle}>
-             <h1 className='newTitleBlock' style={titleProjectStyle}>
+        <div id='projects' className="Projects">
+             <p className='newTitleBlock' style={titleProjectStyle}>
             Projects
-            </h1>
+            </p>
             
 
 
-            <div className="Row ProjectContainer">
+            <div className="Row ProjectContainer" >
                 { data1.map((project)=>(
                     
                     <ProjectCards project={project} key = {project.name}/>
