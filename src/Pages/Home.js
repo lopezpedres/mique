@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import heatherImage from "../assets/images/yo.jpg"
 import getEmoji from '../apis/Emoji'
 
-const styleHigh={ margin: "0px",
+const styleHigh={ margin: "0px", fontSize:"95px"
 }
 const styleHigh2={ margin: "0px",
 fontWeight: "normal"
@@ -22,7 +22,7 @@ const Home = () => {
             <div className="Row">
                 <div className=" welcomeText Column">
                     <p>Hi there  {emoji}</p>
-                    <h1 style={styleHigh}>I'm Miguel </h1>
+                    <p style={styleHigh}>I'm Miguel </p>
                     <p style={styleHigh2}>Full-Stack Developer </p>
                     <div className="Rectangulo"></div>
                 </div>
