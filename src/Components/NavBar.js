@@ -15,11 +15,10 @@ import React from 'react'
     return (
         <div id="NavBar" className="navbar">
            
-            <a className= "active"href='/'>HOME</a>
+            <a href='/'>HOME</a>
             <a href='#projects'>PORTAFOLIO</a>
             <a href='#about_me'>ABOUT ME</a>
-            <a href= '#contact'>CONTACT</a>
-            <a href='#' className="icon" onClick ={()=>myFunction()}>
+            <a href='javascript:void(0);' className="icon" onClick ={()=>myFunction()}>
             <i className="fa fa-bars"></i>
             </a>
             
