@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import heatherImage from "../assets/images/pp.jpg"
+import heatherImage from "../assets/images/projectBack.gif"
 import Modal from './Modal';
 
 
@@ -21,13 +21,19 @@ const ProjectCards = ({ project }) => {
         <div className="Column" >
 
             <div className="ProjectCards" onClick={ () => toggleModal() }>
-                <img alt="Miguel Lopez" src={ heatherImage } />
+                {project.url_image?
+                 <img alt="Miguel Lopez" src={ project.url_image } />
+                 :
+                 <img alt="Miguel Lopez" src={ heatherImage } />
+
+            }
+            {console.log(project.url_image)}
                 <p>{ project.name }</p>
 
 
             </div>
 
-            <Modal project={ project } show={ show } setShow={ setShow } />
+            <Modal key = {project.name} project={ project } show={ show } setShow={ setShow } />
 
 
 
