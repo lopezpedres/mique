@@ -23,7 +23,9 @@ const Modal = ({ project, show, setShow }) => {
 
                 <div className="modalDescription">
                     <h3><i class="fas fa-file-alt"></i>   Description</h3>
-                    { project.description }
+                    <p>
+                        { project.description }
+                        </p>
                 </div>
 
                 <div className="modalStack">
