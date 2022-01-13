@@ -6,7 +6,6 @@ import data from "../data/projects.json"
 const data1=data.slice(0,3)
 const data2=data.slice(3,6)
 const titleProjectStyle={color:"#FFFFFF",backgroundColor:"#4A6163", fontFamily:"Raleway"}
-const imageBack={backgroundImage:"url(../assets/images/pp.jpg)"}
 
 const Projects = () => {
     return (
@@ -20,14 +19,14 @@ const Projects = () => {
             <div className="Row ProjectContainer" >
                 { data1.map((project)=>(
                     
-                    <ProjectCards project={project} key = {project.name}/>
+                    <ProjectCards project={project} key = {project.iD}/>
                     ))
                 }
             </div>
             <div className="Row ProjectContainer">
                 { data2.map((project)=>(
                     
-                    <ProjectCards project={project} key = {project.name}/>
+                    <ProjectCards project={project} key={project.iD}/>
                     ))
                 }
             </div>
