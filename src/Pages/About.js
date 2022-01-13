@@ -13,6 +13,7 @@ const About = () => {
             </div>
             <div className="Column">
                 <div className="Contact">
+                    {/* need to refactor this whole component  */}
 
                     <a href='https://www.linkedin.com/in/lopezpedres/' target={ "_blank" } rel="noreferrer">
                         <i className="fab fa-linkedin fa-7x"></i>
