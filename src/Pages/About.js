@@ -8,7 +8,7 @@ const About = () => {
             <div className="Column">
 
                 <p className="About">
-                    <span style={ { color: "#F9a66C" } }>Welcome to my website</span>. I am an Engineer who the past 2 years of self-learning web development, has been able to put in practice many technologies, such as JavaScript, Python, SQL, SQLALCHEMY, Postgresql, Docker, React, and more. Currently, and for the past few months, I have been part of Hack for LA Developer’s team, a non-profit organization which principal objective is to give back by creating tech solutions to everyday problems of the community. There, I am able to give maintenance to their principal WebPage as well as learn more about GitHub’s Kanban workflow.
+                    <span style={ { color: "#F9a66C" } }>Welcome to my website</span>. I am an Engineer who for the past 2 years of self-learning web development, has been able to put in practice many technologies, such as JavaScript, Python, SQL, SQLALCHEMY, Postgresql, Docker, React, and more. Currently, and for the past few months, I have been part of Hack for LA Developer’s team, a non-profit organization which principal objective is to give back by creating tech solutions for everyday problems of the community. There, I am able to give maintenance to their principal WebPage as well as learn more about GitHub’s Kanban workflow.
                 </p>
             </div>
             <div className="Column">
