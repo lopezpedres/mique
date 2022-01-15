@@ -1,73 +1,78 @@
 [
   {
-    "name": "Applied Data Processing Automation",
-    "description": "A script that automates the fetching of public exam results from a University’s website. Obtained more than 500 k rows of raw data. After that, I had to clean the data and save it into a database on a Google Cloud Virtual machine using Docker and Postgresql. In the end, I was able to analyze the data and get some insights from it.",
-    "url_project": "url",
-    "demo": false,
+    "iD": 1,
+    "name": "Data Automation",
+    "description": "Python script that automates the fetching of public exam results from a University’s website. Obtained more than 500k rows of raw data. After that, I had to clean the data and save it into a database on a Google Cloud Virtual machine using Docker and Postgresql. In the end, I was able to analyze the data and get some insights from it.",
+    "url_project": "https://github.com/lopezpedres/unam-data/blob/main/notebooks/Data_Scraping.ipynb",
+    "demo": true,
     "live": false,
-    "repo_project": "url",
-    "url_image": "url",
-    "tech": [
-      "Python",
-      "Jupyter Notebooks",
-      "pandas",
-      "Numpy",
-      "Seaborns",
-      "Docker",
-      "Google Cloud"
-    ]
+    "repo_project": "https://github.com/lopezpedres/unam-data",
+    "url_image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+    "alt_image":"python",
+    "tech": ["Python", "Jupyter Notebooks", "pandas", "Docker", "Google Cloud"]
   },
 
   {
-    "name": "Inventory's API Design",
-    "description": "description",
+    "iD": 2,
+    "name": "Inventory API",
+    "description": "Creation of an inventory system that allows to create inventory, batches, orders with client information, items from inventory, user, etc. As well as the creation of API's that fetch that information from a Postgresql Database",
     "url_project": "url",
     "demo": false,
     "live": false,
-    "repo_project": "url",
-    "url_image": "url",
-    "tech": ["strings"]
+    "repo_project": "https://github.com/lopezpedres/recalls-project",
+    "url_image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg",
+    "alt_image":"Flask",
+    "tech": ["Python","Flask","SQLALCHEMY","Insomnia","Docker","TablePlus", "Postgresql"]
   },
 
   {
-    "name": "Personal Web-Page",
-    "description": "description",
+    "iD": 3,
+    "name": "Web-Site",
+    "description": "You are in this project right now! Still Work in Progress",
     "url_project": "url",
     "demo": false,
     "live": false,
-    "repo_project": "url",
-    "url_image": "url",
-    "tech": ["strings"]
+    "repo_project": "https://github.com/lopezpedres/mique",
+    "url_image": "https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg",
+    "alt_image":"css",
+    "tech": ["React Hooks", "JavaScript", "CSS", "HTML"]
   },
 
   {
-    "name": "Quotes API Consumption",
-    "description": "description",
+    "iD": 4,
+    "name": "Daily Quotes",
+    "description": "Fetch and consuption of a Daily Quotes API, using Bootsrap as a CSS Framework",
+    "url_project": "https://quoteapi.lopezpedres.dev/",
+    "demo": false,
+    "live": false,
+    "repo_project": "https://github.com/lopezpedres/api-motivational-quotes",
+    "url_image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+    "alt_image":"JavaScript",
+    "tech": ["JavaScript", "React", "Bootstrap"]
+  },
+  {
+    "iD": 5,
+    "name": "Coffee-Cards",
+    "status": "In Progress",
+    "description": "Interactive webpage where you can select a coffee type to preview it and see the ingredients and instruction of how to make it.",
     "url_project": "url",
     "demo": false,
     "live": false,
-    "repo_project": "url",
-    "url_image": "url",
-    "tech": ["strings"]
+    "repo_project": "https://github.com/lopezpedres/coffeeapp",
+    "url_image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg",
+    "alt_image":"Boostrap",
+    "tech": ["React", "JavaScript", "Node.js", "Bootstrap"]
   },
   {
-    "name": "Coffee Cards",
-    "description": "description",
-    "url_project": "url",
-    "demo": false,
-    "live": false,
-    "repo_project": "url",
-    "url_image": "url",
-    "tech": ["strings"]
-  },
-  {
+    "iD": 6,
     "name": "ToDo App",
-    "description": "description",
+    "description": "A most in a developer's learning path",
     "url_project": "url",
     "demo": false,
     "live": false,
     "repo_project": "url",
-    "url_image": "url",
+    "url_image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+    "alt_image":"React",
     "tech": ["strings"]
   }
 ]

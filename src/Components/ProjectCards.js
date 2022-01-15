@@ -21,13 +21,15 @@ const ProjectCards = ({ project }) => {
         <div className="Column" >
 
             <div className="ProjectCards" onClick={ () => toggleModal() }>
-                {project.url_image?
-                 <img alt="Miguel Lopez" src={ project.url_image } />
-                 :
-                 <img alt="Miguel Lopez" src={ heatherImage } />
+                <div >
 
-            }
-            {console.log(project.url_image)}
+                {project.url_image?
+                 <img alt={project.alt_image} src={project.url_image}/>
+                 :
+                 <img alt={project.alt_image} src={ heatherImage } />
+                 
+                }
+                </div>
                 <p>{ project.name }</p>
 
 

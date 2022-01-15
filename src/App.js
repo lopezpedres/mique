@@ -1,12 +1,12 @@
 import './App.css';
-import Layout from './Layouts/Layout';
+import RouterApp from './Routes/RouterApp';
 
 const styleApp={overflow: "hidden"}
 
 function App() {
   return (
     <div style = {styleApp} className="App">
-      <Layout/>
+      <RouterApp/>
     </div>
   );
 }

@@ -1,20 +1,18 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import React from 'react'
-import Home from "../Pages/Home";
 import Layout from "../Layouts/Layout";
-import Projects from "../Pages/Projects";
+import NotFound from "../Pages/NotFound";
 
 const RouterApp = () => {
     return (
         <BrowserRouter>
-            <Layout>
             <Routes>
-                <Route exact path="/" element={<Home/>} />
-                <Route  path="*" element={<Projects/>} />
+                <Route exact path="/" element={<Layout/>} />
+                <Route  path="*" element={<NotFound/>} />
             </Routes>
 
-            </Layout>
+            
             
         </BrowserRouter>
     )
