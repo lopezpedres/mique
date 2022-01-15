@@ -66,13 +66,13 @@
   {
     "iD": 6,
     "name": "ToDo App",
-    "description": "A most in a developer's learning path",
+    "description": "A most in a developer's learning path. ",
     "url_project": "url",
     "demo": false,
     "live": false,
     "repo_project": "url",
     "url_image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
     "alt_image":"React",
-    "tech": ["strings"]
+    "tech": ["WORK IN PROGRESS"]
   }
 ]
