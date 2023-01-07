@@ -1,6 +1,42 @@
 [
   {
     "iD": 1,
+    "name": "weHike",
+    "description": "weHike is an interactive Web Application that allows you to store existing hiking trails and create your own on an interactive 3D map. weHike allows uploading images to your map displaying them exactly where your photos were taken. With those features, you can create your own personalized hiking trails or create a journey of hikes with photos.",
+    "demo": false,
+    "live": false,
+    "repo_project": "https://github.com/lopezpedres/weHike",
+    "url_image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+    "alt_image": "weHike",
+    "tech": ["TypeScript", "React", "Tailwinds", "Vite", "Firebase"]
+  },
+  {
+    "iD": 2,
+    "name": "E-Commerce",
+    "status": "In Progress",
+    "description": "E-Commerce built using StoreFront API by Shopify. StoreFront provides all the security that Shopify offers at the moment of making a purchase with the flexibility of creating your own Front-End",
+    "url_project": "url",
+    "demo": false,
+    "live": false,
+    "repo_project": "https://github.com/lopezpedres/crochet-front",
+    "url_image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Shopify_logo_2018.svg",
+    "alt_image": "Shopify",
+    "tech": ["TypeScript", "Tailwinds", "GraphQL", "Firebase"]
+  },
+  {
+    "iD": 3,
+    "name": "Coursera Copy",
+    "description": "A copy of the learning Platform Coursera. Built using Nextjs and TypeScript, this project allows the user to browse over all the modules of a course",
+    "url_project": "url",
+    "demo": false,
+    "live": false,
+    "repo_project": "https://github.com/lopezpedres/blockaday-product",
+    "url_image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+    "alt_image": "React",
+    "tech": ["TypeScript", "React", "Firebase", "Tailwinds"]
+  },
+  {
+    "iD": 4,
     "name": "Data Automation",
     "description": "Python script that automates the fetching of public exam results from a University’s website. Obtained more than 500k rows of raw data. After that, I had to clean the data and save it into a database on a Google Cloud Virtual machine using Docker and Postgresql. In the end, I was able to analyze the data and get some insights from it.",
     "url_project": "https://github.com/lopezpedres/unam-data/blob/main/notebooks/Data_Scraping.ipynb",
@@ -8,12 +44,12 @@
     "live": false,
     "repo_project": "https://github.com/lopezpedres/unam-data",
     "url_image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
-    "alt_image":"python",
+    "alt_image": "python",
     "tech": ["Python", "Jupyter Notebooks", "pandas", "Docker", "Google Cloud"]
   },
 
   {
-    "iD": 2,
+    "iD": 5,
     "name": "Inventory API",
     "description": "Creation of an inventory system that allows to create inventory, batches, orders with client information, items from inventory, user, etc. As well as the creation of API's that fetch that information from a Postgresql Database",
     "url_project": "url",
@@ -21,12 +57,20 @@
     "live": false,
     "repo_project": "https://github.com/lopezpedres/recalls-project",
     "url_image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg",
-    "alt_image":"Flask",
-    "tech": ["Python","Flask","SQLALCHEMY","Insomnia","Docker","TablePlus", "Postgresql"]
+    "alt_image": "Flask",
+    "tech": [
+      "Python",
+      "Flask",
+      "SQLALCHEMY",
+      "Insomnia",
+      "Docker",
+      "TablePlus",
+      "Postgresql"
+    ]
   },
 
   {
-    "iD": 3,
+    "iD": 6,
     "name": "Web-Site",
     "description": "You are in this project right now! Still Work in Progress",
     "url_project": "url",
@@ -34,45 +78,7 @@
     "live": false,
     "repo_project": "https://github.com/lopezpedres/mique",
     "url_image": "https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg",
-    "alt_image":"css",
+    "alt_image": "css",
     "tech": ["React Hooks", "JavaScript", "CSS", "HTML"]
-  },
-
-  {
-    "iD": 4,
-    "name": "Daily Quotes",
-    "description": "Fetch and consuption of a Daily Quotes API, using Bootsrap as a CSS Framework",
-    "url_project": "https://quoteapi.lopezpedres.dev/",
-    "demo": false,
-    "live": false,
-    "repo_project": "https://github.com/lopezpedres/api-motivational-quotes",
-    "url_image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
-    "alt_image":"JavaScript",
-    "tech": ["JavaScript", "React", "Bootstrap"]
-  },
-  {
-    "iD": 5,
-    "name": "Coffee-Cards",
-    "status": "In Progress",
-    "description": "Interactive webpage where you can select a coffee type to preview it and see the ingredients and instruction of how to make it.",
-    "url_project": "url",
-    "demo": false,
-    "live": false,
-    "repo_project": "https://github.com/lopezpedres/coffeeapp",
-    "url_image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg",
-    "alt_image":"Boostrap",
-    "tech": ["React", "JavaScript", "Node.js", "Bootstrap"]
-  },
-  {
-    "iD": 6,
-    "name": "ToDo App",
-    "description": "A most in a developer's learning path. ",
-    "url_project": "url",
-    "demo": false,
-    "live": false,
-    "repo_project": "url",
-    "url_image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
-    "alt_image":"React",
-    "tech": ["WORK IN PROGRESS"]
   }
 ]

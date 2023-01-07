@@ -8,12 +8,16 @@ const About = () => {
             <div className="Column">
 
                 <p className="About">
-                    <span style={ { color: "#F9a66C" } }>Welcome to my website</span>. I am an Engineer who for the past 2 years of self-learning web development, has been able to put in practice many technologies, such as JavaScript, Python, SQL, SQLALCHEMY, Postgresql, Docker, React, and more. Currently, and for the past few months, I have been part of Hack for LA Developer’s team, a non-profit organization which principal objective is to give back by creating tech solutions for everyday problems of the community. There, I am able to give maintenance to their principal WebPage as well as learn more about GitHub’s Kanban workflow.
+                    <span style={ { color: "#F9a66C" } }>Welcome to my website</span>. The journey of self-learning has helped me to be self-critical by identifying my weaknesses, mastering the ability to see the big picture, and asking the right questions to connect the dots and come up with creative solutions.
+
+                    My deep understanding of process flow and continuous improvement in systems allows me to break down complex logic into small, understandable, and measurable parts. This, in turn, allows me to effectively communicate ideas with team members and manage projects more efficiently.
+
+                    Being a student at BrainStation has given me the opportunity to enhance the knowledge I acquired and apply it in a professional context.
                 </p>
             </div>
             <div className="Column">
                 <div className="Contact">
-                    {/* need to refactor this whole component  */}
+                    {/* need to refactor this whole component  */ }
 
                     <a href='https://www.linkedin.com/in/lopezpedres/' target={ "_blank" } rel="noreferrer">
                         <i className="fab fa-linkedin fa-7x"></i>
